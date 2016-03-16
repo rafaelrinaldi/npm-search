@@ -16,7 +16,7 @@ const parse = markup => {
     return {
       name: $element.find('.name').text(),
       description: $element.find('.description').text(),
-      author: chalk.underline($element.find('.author').text()),
+      author: $element.find('.author').text(),
       version: $element.find('.version').text().replace(/^v/, ''),
       keywords: $element
         .find('.keywords')
