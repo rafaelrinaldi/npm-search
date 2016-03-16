@@ -2,7 +2,7 @@
 [npm]: https://npmjs.org
 [npm-gh]: http://github.com/npm/npm
 
-# npm-search
+# npm-search [![Build Status](https://semaphoreci.com/api/v1/rafaelrinaldi/npm-search/branches/master/badge.svg)](https://semaphoreci.com/rafaelrinaldi/npm-search)
 
 > Faster `npm search`
 
