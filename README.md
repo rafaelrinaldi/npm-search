@@ -12,6 +12,13 @@
 $ npm i @rafaelrinaldi/npm-search -g
 ```
 
+## Benchmark
+
+| Command | Output |
+| :--- | :--- |
+| `time npm search typeahead` | `21.70` real `16.41` user `1.78` sys |
+| `time npm-search typeahead` | `1.59` real `0.39` user `0.04` sys |
+
 ## Notes
 
 * Scrape pages from [npmjs.org][npm] on every run (no caching whatsoever)
