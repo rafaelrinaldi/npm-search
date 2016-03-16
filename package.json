@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git://github.com/rafaelrinaldi/npm-search.git"
   },
-  "bin": "./index.js",
+  "bin": "cli.js",
   "author": "'Rafael Rinaldi' <rafael@rinaldi.io> (http://rinaldi.io)",
   "license": "MIT",
   "files": [
