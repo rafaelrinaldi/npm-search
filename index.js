@@ -56,6 +56,10 @@ const trimToMaxWidth = output => {
 };
 
 const format = (results, keyword) => {
+  if (!results.length) {
+    return `No results found for "${keyword}"`;
+  }
+
   let output = columnify(results, {
     truncate: true,
     config: {
